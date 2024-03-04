@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('https://andresra13.github.io/firebase-app/sw.js', { scope: 'https://andresra13.github.io/firebase-app/' })})}
